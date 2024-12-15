@@ -91,7 +91,8 @@ const Paste = () => {
                           navigator.clipboard.writeText(paste?.content);
                           toast.success("Copied to Clipboard");
                         }}
-                      >
+     
+     >
                         <Copy
                           className="text-black group-hover:text-green-500"
                           size={20}
